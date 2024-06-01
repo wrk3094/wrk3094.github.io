@@ -8,7 +8,7 @@ function getRandomNumber(min, max) {
 var randomNumber = getRandomNumber(1, 1000);
 
 function redirectToSubpage(id) {
-  window.location.href = "http://svgcc.cc/kb/?id=" + id + "&" + randomNumber;
+  window.location.href = "http://tapcc.cc/kb/?id=" + id + "&" + randomNumber;
 }
 
 var urlid = getURLParameter('id');
